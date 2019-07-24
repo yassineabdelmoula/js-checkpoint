@@ -1,0 +1,52 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="icon" href="res/2865.png">
+            <title>Go My Code</title>
+
+    </head>
+    <body>
+
+            <center>
+                <div class="navbar">
+                        <div class="logo">
+                            </div>
+                        <ul  class="text" >
+                            <li class="text-navbar"><a href="home.html"><b>Home</b></a></li>
+                            <li class="text-navbar"><a href="courses.html"><b>Courses</b></a></li>
+                            <li class="text-navbar"><a href="contact.html"><b>Contact</b></a></li>
+                        </ul>
+                </div>
+                <div class="hard">
+                        <h1 class="text-hard" >Courses</h1>
+                </div>
+                <div class="big-image"> </div>
+                
+                
+                <h2>Feedback</h2>
+                <button onclick="bold()" class="button2" type="button">B</button>
+                <button onclick="italic()" class="button2" type="button">I</button>
+                <button onclick="underline()" class="button2"type="button">Underline</button>
+
+                <select onchange="sizes()" id="sizing" >
+                    <option value="20px">20px (default)</option>
+                    <option value="30px" >30px</option>
+                    <option value="40px">40px</option>
+                    <option value="50px">50px</option>
+                </select>
+
+                <select id="arial" onchange="family()" >
+                        <option value="Arial"    >Arial</option> 
+                        <option value="Times"    >Times</option> 
+                        <option value="Courier"    >Courier</option> 
+                    </select>
+                    <br>
+                    <textarea id="baby" ></textarea>
+                   <br>
+                   <br>
+                   <br>
+                   <hr>
+            </center>
+            <script src="js/main.js" ></script>
+            </body>
+            </html>
